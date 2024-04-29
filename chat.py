@@ -38,7 +38,7 @@ origin_model_conversation = [
                             ]
 
 def chat_with_origin_model(text):
-        openai_api_key = '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'
+        openai_api_key = 'sk-D7wxeFd8ujy**********'
         openai = OpenAI(api_key=openai_api_key)
 
         text = text.replace('\n', ' ').replace('\r', '').strip()
@@ -81,9 +81,9 @@ def chat_with_origin_model(text):
 """   sparkapi      """
 from spark_chat import SparkChat
 #以下密钥信息从控制台获取
-appid = "3e721689"     #填写控制台中获取的 APPID 信息
-api_secret = "NTBlNjNkNzgzZTgwZjk0OWE5OTFmMzIx"   #填写控制台中获取的 APISecret 信息
-api_key ="9696bebc63a45edb02dec6872e6b218f"    #填写控制台中获取的 APIKey 信息
+appid = "3e****9"     #填写控制台中获取的 APPID 信息
+api_secret = "NTBl******OTFmMzIx"   #填写控制台中获取的 APISecret 信息
+api_key ="9696bebc6*******ec6872e6b218f"    #填写控制台中获取的 APIKey 信息
 
 #用于配置大模型版本，默认“general/generalv2”
 # domain = "generalv3.5"   # v3.5版本
@@ -245,7 +245,7 @@ import erniebot
 
 def chat_with_baidu(text):
     erniebot.api_type = "aistudio"
-    erniebot.access_token = "2dbea1783e549b5c0f900eda1c43d8cfcdb454fc"
+    erniebot.access_token = "2dbea178************d8cfcdb454fc"
 
     stream = True
     response = erniebot.ChatCompletion.create(
