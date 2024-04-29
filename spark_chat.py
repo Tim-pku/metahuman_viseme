@@ -235,9 +235,9 @@ def checklen(text):
 
 if __name__ == '__main__':
    #以下密钥信息从控制台获取
-    appid = "3e721689"     #填写控制台中获取的 APPID 信息
-    api_secret = "NTBlNjNkNzgzZTgwZjk0OWE5OTFmMzIx"   #填写控制台中获取的 APISecret 信息
-    api_key ="9696bebc63a45edb02dec6872e6b218f"    #填写控制台中获取的 APIKey 信息
+    appid = "*****"     #填写控制台中获取的 APPID 信息
+    api_secret = "NTBlNjNkNzgzZTgwZjk******"   #填写控制台中获取的 APISecret 信息
+    api_key ="9696bebc63a*******218f"    #填写控制台中获取的 APIKey 信息
 
     #用于配置大模型版本，默认“general/generalv2”
     domain = "generalv3.5"   # v3.5版本
